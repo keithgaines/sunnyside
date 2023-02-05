@@ -55,7 +55,7 @@ body {
     grid-row: 2;
     background-image: url("images/desktop/image-stand-out.jpg");
     background-size: cover;
-}
+}   
 
 .textblurb {
     grid-column: 2;
@@ -87,4 +87,64 @@ body {
 .testimonials {
     text-align: center;
     margin-top: 12%;
+}
+
+.col-4 img {
+    border: 1px;
+    border-style: solid;
+    border-radius: 100%;
+    margin-top: 20px;
+    display: block;
+    margin-left: 35%;
+
+}
+
+.text {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px;
+    margin-top: 15%;
+    width: 100%;
+}
+
+.milkbottle {
+    background-image: url('images/desktop/image-gallery-milkbottles.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.orange {
+    background-image: url('images/desktop/image-gallery-orange.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.cone {
+        background-image: url('images/desktop/image-gallery-cone.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40vh;
+        grid-row: 1;
+        grid-column: 3;
+}
+
+.sugarcubes {
+    background-image: url('images/desktop/image-gallery-sugarcubes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40vh;
+    grid-row: 1;
+    grid-column: 4;
 }
