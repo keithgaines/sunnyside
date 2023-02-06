@@ -2,6 +2,15 @@ body {
     margin-left: 240px;
     margin-right: 240px;
     font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+}
+
+body h1, h3 {
+    font-family: 'Fraunces', serif;
+}
+
+.navbar {
+    font-family: 'Barlow', sans-serif;;
 }
 
 .header {
@@ -11,6 +20,11 @@ body {
     height: 800px;
     padding-top: 2%;
     font-family: 'Barlow', serif;
+    color: white;
+}
+
+.navbar {
+    padding: 20px;
 }
 
 .title {
@@ -41,6 +55,10 @@ body {
     grid-row: 1;
     height: 60vh;
     padding: 25%;
+}
+
+.transformbrand h1 {
+
 }
 
 .eggimage {
@@ -115,12 +133,30 @@ body {
     margin-top: 5%;
 }
 
+.imagescontainer {
+    width: 100%;
+}
+
 .row {
     padding-top: 5%;
-    margin-right: 5%;
-    margin-left: 5%;
+
 }
 
 .col-3 img {
     width: 100%;
+}
+
+.footer {
+    background-color: aquamarine;
+    color: hsl(168, 34%, 41%);
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.footer li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 40px;
+    padding-top: 30px;
 }
