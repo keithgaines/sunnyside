@@ -103,11 +103,13 @@ body h1, h3 {
 }
 
 .testimonials {
+    display: flex;
+    flex-direction: row;
     text-align: center;
     margin-top: 5%;
 }
 
-.col-4 img {
+.col-md-4 img {
     border: 1px;
     border-style: solid;
     border-radius: 100%;
@@ -132,7 +134,8 @@ body h1, h3 {
 }
 
 .imagescontainer {
-    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 
 .row {
@@ -140,7 +143,7 @@ body h1, h3 {
 
 }
 
-.col-3 img {
+.col-md-3 img {
     width: 100%;
 }
 
@@ -229,7 +232,17 @@ body h1, h3 {
     .imagetext {
         text-align: center;
         padding-top: 90%;
-        
     }
-    
+
+    .col-sm-12 {
+        width: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+        flex-basis: 50%;
+        max-width: 50%;
+    }
 }
