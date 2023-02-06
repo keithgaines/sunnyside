@@ -53,7 +53,7 @@ body h1, h3 {
 .transformbrand {
     grid-column: 1;
     grid-row: 1;
-    padding: 75px;
+    padding: 25%;
 }
 
 
@@ -61,20 +61,24 @@ body h1, h3 {
     grid-column: 2;
     grid-row: 1;
     background-image: url('images/desktop/image-transform.jpg');
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70vh;
 }
 
 .cupimage {
     grid-column: 1;
     grid-row: 2;
     background-image: url("images/desktop/image-stand-out.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70vh;
 }   
 
 .textblurb {
     grid-column: 2;
     grid-row: 2;
-    padding: 75px;
+    padding: 25%;
     margin-bottom: 40px;
 }
 
@@ -83,6 +87,7 @@ body h1, h3 {
     grid-row: 3;
     background-image: url('images/desktop/image-graphic-design.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     color: hsl(167, 40%, 24%);
     
 }
@@ -92,6 +97,7 @@ body h1, h3 {
     grid-row: 3;
     background-image: url('images/desktop/image-photography.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     color: hsl(198, 62%, 26%)
 }
 
