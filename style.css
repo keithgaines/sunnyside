@@ -53,7 +53,6 @@ body h1, h3 {
 .transformbrand {
     grid-column: 1;
     grid-row: 1;
-    height: 60vh;
     padding: 75px;
 }
 
@@ -158,4 +157,79 @@ body h1, h3 {
     margin-left: 20px;
     margin-right: 40px;
     padding-top: 30px;
+}
+
+@media (max-width: 1000px) {
+    body {
+        margin: 0;
+    }
+
+    .header {
+        background-image: url('images/mobile/image-header.jpg');
+        height: 70vh;
+        width: 100vw;
+    }
+
+    .title h1 {
+        font-size: 40px;
+    }
+
+    .title img {
+        padding-left: 47%;
+    }
+
+    .gridcontainer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 0px;
+        width: 100vw;
+    }
+
+    .eggimage {
+        grid-column: 1;
+        grid-row: 1;
+        background-image: url('images/mobile/image-transform.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .transformbrand {
+        grid-column: 1;
+        grid-row: 2;
+        padding: 20px;
+    }
+
+    .cupimage {
+        grid-column: 1;
+        grid-row: 3;
+        background-image: url('images/mobile/image-stand-out.jpg');
+    }   
+
+    .textblurb {
+        grid-column: 1;
+        grid-row: 4;
+        padding: 25px;
+        margin-bottom: 30px;
+    }
+
+    .cherries {
+        grid-column: 1;
+        grid-row: 5;
+        background-image: url('images/mobile/image-graphic-design.jpg');  
+    }
+
+    .photography {
+        grid-column: 1;
+        grid-row: 6;
+        background-image: url('images/mobile/image-photography.jpg');
+        
+    }
+
+    .imagetext {
+        text-align: center;
+        padding-top: 90%;
+        
+    }
+    
 }
