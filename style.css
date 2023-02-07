@@ -1,6 +1,6 @@
 body {
-    margin-left: 240px;
-    margin-right: 240px;
+    /* margin-left: 240px;
+    margin-right: 240px; */
     font-size: 18px;
     font-family: 'Barlow', sans-serif;
 }
@@ -48,6 +48,8 @@ body h1, h3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 0px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .transformbrand {
