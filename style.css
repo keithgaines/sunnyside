@@ -2,8 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
 
 body {
-    /* margin-left: 240px;
-    margin-right: 240px; */
     font-size: 18px;
     font-family: 'Barlow', sans-serif;
 }
@@ -190,6 +188,10 @@ body h1, h3 {
     padding-top: 30px;
 }
 
+.attribution {
+    text-align: center;
+}
+
 @media (max-width: 1000px) {
     body {
         margin: 0;
@@ -255,22 +257,5 @@ body h1, h3 {
         grid-row: 6;
         background-image: url('images/mobile/image-photography.jpg');
         
-    }
-
-    .imagetext {
-        text-align: center;
-        padding-top: 90%;
-    }
-
-    .col-sm-12 {
-        width: 100%;
-        flex-basis: 100%;
-        max-width: 100%;
-    }
-
-    .col-md-6 {
-        width: 50%;
-        flex-basis: 50%;
-        max-width: 50%;
     }
 }
